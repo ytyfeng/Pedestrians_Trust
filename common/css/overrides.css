@@ -1,0 +1,137 @@
+img {
+   /* max-height: 70% !important;
+   max-width: 70% !important; */
+   border: none !important;
+   box-shadow: none !important;
+}
+section {
+   padding: 0px !important;
+   /* max-height: 85% !important; */
+}
+.bluetable tr {
+	border: 2px solid white !important;
+}
+.bluetable td {
+	border: 2px solid white !important;
+}
+.whitetable td {
+  border: 0px solid white !important;
+ padding: 0.1em 0.5em 0.1em 0.5em !important;
+}
+@media print {
+  body {
+	padding: 0px !important;
+    font-size: 9pt !important;
+	color: #727272;
+  }
+  #main {
+	  width: 100% !important;
+	  max-width: 100% !important;
+  }
+}
+
+.highlight-box {
+  text-shadow: 0px 0px 13px #fff, 
+  0px 0px 13px #fff, 0px 0px 13px #fff, 0px 0px 13px #fff, 
+  0px 0px 23px #fff, 0px 0px 23px #fff, 0px 0px 23px #fff, 
+  0px 0px 23px #fff, 0px 0px 23px #fff, 0px 0px 23px #fff, 0px 0px 23px #fff;  
+  text-shadow: 0.0px 10.0px 0.02px #fff, 9.8px 2.1px 0.02px #fff, 4.2px -9.1px 0.02px #fff,
+   -8.0px -6.0px 0.02px #fff, -7.6px 6.5px 0.02px #fff, 4.8px 8.8px 0.02px #fff, 
+   9.6px -2.8px 0.02px #fff, -0.7px -10.0px 0.02px #fff, -9.9px -1.5px 0.02px #fff, 
+   -3.5px 9.4px 0.02px #fff, 8.4px 5.4px 0.02px #fff, 7.1px -7.0px 0.02px #fff, 
+   -5.4px -8.4px 0.02px #fff, -9.4px 3.5px 0.02px #fff, 1.4px 9.9px 0.02px #fff, 
+   10.0px 0.8px 0.02px #fff, 2.9px -9.6px 0.02px #fff, -8.7px -4.8px 0.02px #fff, 
+   -6.6px 7.5px 0.02px #fff, 5.9px 8.0px 0.02px #fff, 9.1px -4.1px 0.02px #fff, 
+   -2.1px -9.8px 0.02px #fff, -10.0px -0.1px 0.02px #fff, -2.2px 9.8px 0.02px #fff, 
+   9.1px 4.2px 0.02px #fff, 6.1px -8.0px 0.02px #fff, -6.5px -7.6px 0.02px #fff, 
+   -8.8px 4.7px 0.02px #fff, 2.7px 9.6px 0.02px #fff, 10.0px -0.6px 0.02px #fff, 
+   1.5px -9.9px 0.02px #fff, -9.3px -3.6px 0.02px #fff, -5.5px 8.4px 0.02px #fff, 
+   7.0px 7.2px 0.02px #fff, 8.5px -5.3px 0.02px #fff, -3.4px -9.4px 0.02px #fff, 
+   -9.9px 1.3px 0.02px #fff, -0.8px 10.0px 0.02px #fff, 9.6px 2.9px 0.02px #fff, 
+   4.9px -8.7px 0.02px #fff, -7.5px -6.7px 0.02px #fff, -8.1px 5.9px 0.02px #fff, 
+   4.0px 9.2px 0.02px #fff, 9.8px -2.0px 0.02px #fff, 0.2px -10.0px 0.02px #fff, 
+   -9.7px -2.3px 0.02px #fff, -4.3px 9.0px 0.02px #fff, 7.9px 6.1px 0.02px #fff;
+}
+.highlight-box ul {
+  list-style-type: none;
+  font-weight: 700;
+}
+
+.bibliography ul li {
+  margin-bottom: 10px;
+}
+
+/*  
+ * overrides for navigation controls
+ */
+/* control block position */
+.reveal .controls {
+  bottom: 0px !important;
+}
+/* colors for arrows */
+.navigate-right.enabled {
+  border-left-color: #003660 !important;
+}
+.navigate-left.enabled {
+  border-right-color: #003660 !important;
+}
+.navigate-up.enabled {
+  border-bottom-color: #003660 !important;
+}
+.navigate-down.enabled {
+  border-top-color: #003660 !important;
+}
+/* visibility of arrows */
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+  display: none;
+}
+.reveal .controls .navigate-down, .reveal .controls .navigate-dwon.enabled {
+  display: none;
+}
+
+/*
+ * all for header footer template
+ */
+.template-container {
+  display: flex; flex-direction: column; align-items: center; width: 1366px; height: 768px; position: absolute; top: 0px; left: 0px;
+}
+.template-header {
+  flex: none; font-size: 0.6em !important; width: 100%; text-align: left; color: #777; border-bottom: 1px solid #c9bf9d !important;
+}
+.template-header span {
+  margin-left: 23px; float: right; margin-right: 23px; color: #c9bf9d;
+}
+.template-content-containter {
+  flex: 1; height: 100%; width: 100%; margin-left: auto; margin-right: auto;
+}
+.template-content {
+  max-width: 75%; margin: -23px auto 0px auto !important; font-size: 80% !important; line-height: 120% !important; position: relative; top: 50%; transform: translateY(-50%);
+}
+.template-content-jes {
+  max-width: 100%; margin: 0px auto 0px auto !important; font-size: 80% !important; line-height: 120% !important; position: relative; top: 50%; transform: translateY(-50%);
+}
+.template-content img {
+  max-height: 500px;
+}
+.template-title {
+  font-weight: bold !important; font-size: 120% !important; margin-top: 13px !important;
+}
+.template-element {
+  max-width: 100%; margin: 0px auto 0px auto !important;
+}
+.template-element ul {
+  line-height: 145%;
+}
+.template-citation {
+  flex: none; font-size: 40% !important; width: 100%; margin: 0px auto 23px auto !important; z-index: 100 !important; max-width: 70%; text-align: left; padding-left: 23px !important; color: #aaa;
+}
+.template-citation a {
+  color: #abe;
+}
+
+.template-footer {
+  flex: none; width: 100%;
+}
+.template-footer td {
+  background-size: 100% 96px;
+}
